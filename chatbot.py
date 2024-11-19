@@ -83,7 +83,7 @@ def initialize_app():
     Settings.chunk_size = 1024
 
     # Load documents and set up the index
-    documents = SimpleDirectoryReader("law-gpt/data").load_data()
+    documents = SimpleDirectoryReader("law-gpt\data").load_data()
     vector_store = PineconeVectorStore(pinecone_index=pinecone_index)
     storage_context = StorageContext.from_defaults(vector_store=vector_store)
 
