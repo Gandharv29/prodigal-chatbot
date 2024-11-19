@@ -2,3 +2,4 @@ llama_index==0.12.0
 pinecone==5.4.0
 python-dotenv==1.0.1
 streamlit==1.14.0
+altair==4.2.2
